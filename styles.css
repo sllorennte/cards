@@ -1,0 +1,49 @@
+.menu{
+    text-align: center;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.menu ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+}
+.busqueda{
+    text-align: center;
+}
+.card img{
+    padding: 5px 5px ;
+    border-radius: 80%;
+    max-width: 30%;
+    width: auto;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(5, 0, 0, 0.4);
+    max-width: 300px;
+    flex: 1 1 30%;
+    margin: 30px;
+}
+.container{
+    padding: 2px 16px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.cartas{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
